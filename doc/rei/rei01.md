@@ -43,15 +43,13 @@ LOJA (idLoja, moradaLoja)
 - ⁠ ⁠moradaLoja: morada de cada loja
 
 
-ENCOMENDA (numEnc, moradaEnc, numPecas, valor, cliente)
+ENCOMENDA (numEnc, moradaEnc, valor)
 
 - ⁠ ⁠numEnc: Número que identifica cada encomenda, número único (Chave
 Primária)
 - ⁠ ⁠moradaEnc: morada de entrega da encomenda
-- ⁠ ⁠numPecas: número de peças na encomenda
 - ⁠ ⁠valor: valor monetário da encomanda
 - ⁠ ⁠morada: morada de entrega de encomenda
-- ⁠ ⁠cliente: nome do cliente (loja) que realizou a encomenda
 
 PECA (zona, nSerie, nInterno, valorCompra, valorVenda)
 
