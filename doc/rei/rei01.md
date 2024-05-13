@@ -53,7 +53,7 @@ Primária)
 - ⁠ ⁠morada: morada de entrega de encomenda
 - ⁠ ⁠cliente: nome do cliente (loja) que realizou a encomenda
 
-PEÇA (zona, nSerie, nInterno, valorCompra, valorVenda)
+PECA (zona, nSerie, nInterno, valorCompra, valorVenda)
 
 - ⁠ ⁠zona: zona do carro onde a peça será instalada
 - ⁠ ⁠nSerie: número de série da peça
