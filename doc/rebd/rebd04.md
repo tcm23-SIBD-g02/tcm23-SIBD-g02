@@ -177,4 +177,3 @@ A tabela Pagamento armazena informações sobre os pagamentos.
 
 [< Previous](rebd03.md) | [^ Main](/../../) | [Next >](rebd05.md)
 :--- | :---: | ---: 
-Suporte Técnico: acesso ao suporte técnico; disponibilidade de manuais de usuário e guias de procedimento. 
