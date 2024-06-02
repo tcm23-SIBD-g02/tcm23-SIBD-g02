@@ -31,7 +31,7 @@ COMPRA (nCliente, nInterno)
 ### **1NF | 2NF | 3NF | BCNF**
 
 ### ARMAZEM
-| ArmID  |  rua                  | numeroPorta | codPostal |
+| ArmID  | rua                  | numeroPorta | codPostal |
 | :----- | :-------------------- | :---------- | :-------- |
 | 000000 | Rua das Pedras Ruivas | 385         | 4455-150  |
 | 000000 | Rua de São Brás       | 231         | 4485-046  | 
@@ -45,22 +45,46 @@ COMPRA (nCliente, nInterno)
 | 000000  | Avenida Dr. Antunes Guimarães |
 
 ### ENCOMENDA
-
+| numEnc | moradaEnc            | valor |
+| :----- | :------------------- | :---- |
+| 000000 | Avenida da Liberdade | 350   |
+| 000000 | Rua Garrett          | 125   |
+| 000000 | Rua de Cedofeita     | 412   |
 
 ### PECA
-
+| numEnc | moradaEnc            | valor |
+| :----- | :------------------- | :---- |
+| 000000 | Avenida da Liberdade | 350   |
+| 000000 | Rua Garrett          | 125   |
+| 000000 | Rua de Cedofeita     | 412   |
 
 ### CLIENTES
-
+| nCliente   | nome            | morada | contacto  | nif         |
+| :--------- | :-------------- | :----  | :-------- | :---------- |
+| 00000000   | Rui Silva       | 350    | 913571904 | 00000000000 |
+| 00000000   | André Pereira   | 125    | 934719253 | 00000000000 |
+| 00000000   | Ricardo Tavares | 412    | 917489275 | 00000000000 |
 
 ### PAGAMENTO
-
+| nCliente   | tipoPagamento   | detalhePagamento |
+| :--------- | :-------------- | :--------------  | 
+| 00000000   | Multibanco      | Cartão           |
+| 00000000   | Dinheiro        |                  | 
+| 00000000   | Multibanco      | Transferência    |
 
 ### ARMAZENA
-
+| ArmID    | nInterno   |
+| :------- | :--------- | 
+| 000000   | 00000000   |
+| 000000   | 00000000   |
+| 000000   | 00000000   |
 
 ### VENDE
-
+| idLoja    | nInterno   |
+| :------- | :--------- | 
+| 000000   | 00000000   |
+| 000000   | 00000000   |
+| 000000   | 00000000   |
 
 ### EFETUA_PEDIDOS
 
