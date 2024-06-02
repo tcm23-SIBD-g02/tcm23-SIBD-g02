@@ -15,6 +15,5 @@
 * Jorge Fonseca
 
 ---
-_You can add a footer menu for navigation_ 
 < Previous | [^ Main](/../../) | [Next >](rebd01.md)
 :--- | :---: | ---: 
