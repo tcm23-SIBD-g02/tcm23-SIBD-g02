@@ -1,6 +1,5 @@
-# C4 : Esquema Relacional
-## 02 Nuno Pinto, Jorge Fonseca
+# C3 : SQL
 
-##DDL
+## DDL
 
 
