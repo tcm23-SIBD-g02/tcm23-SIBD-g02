@@ -11,8 +11,6 @@
 
 ## Group _02_
 
-_(Don't forget to add the group elements)_
-
 * Nuno Pinto
 * Jorge Fonseca
 
