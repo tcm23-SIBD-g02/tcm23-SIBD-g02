@@ -48,16 +48,16 @@ PAGAMENTO (nCliente, tipoPagamento, detalhePagamento)
 ### CLIENTES
 | nCliente  | nome                          | morada | contacto | nif |
 | :-------- | :---------------------------- |
-| 000000    | Rua Brito Capelo              |
+| 000000    | Rui Pereiro              |
 | 000000    | Rua de Santa Catarina         |
 | 000000    | Avenida Dr. Antunes Guimarães |
 
 ### PAGAMENTO
 | nCliente  | tipoPagamento   | detalhePagamento |
 | :-------- | :-------------- | :--------------- |
-| 000000    | Multibanco      | Transferência
-| 000000    | Dinheiro        |
-| 000000    | Multibanco      | 
+| 000000    | Multibanco      | Transferência    |
+| 000000    | Dinheiro        |                  |
+| 000000    | Multibanco      | Cartão           |
 
 
 
