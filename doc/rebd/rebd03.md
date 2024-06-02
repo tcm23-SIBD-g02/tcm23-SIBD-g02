@@ -14,18 +14,6 @@ CLIENTES (nCliente, nome, morada, contacto, nif)
 
 PAGAMENTO (nCliente, tipoPagamento, detalhePagamento)
 
-ARMAZENA (ArmID, nInterno)
-
-VENDE (idLoja, nInterno)
-
-EFECTUA_PEDIDOS (idLoja, ArmID)
-
-REALIZA (idLoja, numEnc)
-
-PREPARA (ArmID, numEnc)
-
-COMPRA (nCliente, nInterno)
-
 ## **Normalização do Esquema Relacional**
 
 ### **1NF | 2NF | 3NF | BCNF**
