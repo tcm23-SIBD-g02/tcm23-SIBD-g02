@@ -33,4 +33,3 @@ Gerir envio de encomendas: Criar encomendas e ordens de envio.
 ---
 [< Previous](rebd00.md) | [^ Main](/../../) | [Next >](rebd02.md)
 :--- | :---: | ---: 
-Suporte Técnico: acesso ao suporte técnico; disponibilidade de manuais de usuário e guias de procedimento. 
