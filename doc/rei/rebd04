@@ -44,18 +44,30 @@ COMPRA (nCliente, nInterno)
 | 000000  | Rua de Santa Catarina         |
 | 000000  | Avenida Dr. Antunes Guimarães |
 
-### LOJA
+### ENOCMENDA
 
 
-### LOJA
+### PECA
 
 
-### LOJA
+### CLIENTES
 
 
-### LOJA
+### PAGAMENTO
 
 
-### LOJA
+### ARMAZENA
+
+
+### VENDE
+
+
+### EFETUA_PEDIDOS
+
+
+### ARMAZENA
+
+
+### ARMAZENA
 
 
