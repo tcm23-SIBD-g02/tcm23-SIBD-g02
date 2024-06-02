@@ -6,13 +6,13 @@ ARMAZEM (_**ArmID**_, rua, numeroPorta, codPostal)
 
 LOJA (_**idLoja**_, moradaLoja)
 
-ENCOMENDA (numEnc, moradaEnc, valor)
+ENCOMENDA (_**numEnc**_, moradaEnc, valor)
 
-PECA (nInterno, zona, nSerie, valorCompra, valorVenda)
+PECA (_**nInterno**_, zona, nSerie, valorCompra, valorVenda)
 
-CLIENTES (nCliente, nome, morada, contacto, nif)
+CLIENTES (_**nCliente**_, nome, morada, contacto, nif)
 
-PAGAMENTO (nCliente, tipoPagamento, detalhePagamento)
+PAGAMENTO (_**nCliente**_, tipoPagamento, detalhePagamento)
 
 ## **Normalização do Esquema Relacional**
 
