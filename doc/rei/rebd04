@@ -31,10 +31,31 @@ COMPRA (nCliente, nInterno)
 ### **1NF | 2NF | 3NF | BCNF**
 
 ### ARMAZEM
-| ArmID   |  rua                  | numeroPorta | codPostal |
-| :------ | :-------------------- | :---------- | :-------- |
-| 000000  | Rua das Pedras Ruivas | 385         | 4455-150  |
-| 000000  | Rua de São Brás       | 231         | 4485-046  | 
-| 000000  | Rua de Recarei        | 953         | 4465-784  |
+| ArmID  |  rua                  | numeroPorta | codPostal |
+| :----- | :-------------------- | :---------- | :-------- |
+| 000000 | Rua das Pedras Ruivas | 385         | 4455-150  |
+| 000000 | Rua de São Brás       | 231         | 4485-046  | 
+| 000000 | Rua de Recarei        | 953         | 4465-784  |
 
 ### LOJA
+| idLoja  | moradaLoja                    |
+| :------ | :---------------------------- |
+| 000000  | Rua Brito Capelo              |
+| 000000  | Rua de Santa Catarina         |
+| 000000  | Avenida Dr. Antunes Guimarães |
+
+### LOJA
+
+
+### LOJA
+
+
+### LOJA
+
+
+### LOJA
+
+
+### LOJA
+
+
