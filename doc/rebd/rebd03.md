@@ -2,9 +2,9 @@
 
 ## **Relações**
 
-ARMAZEM (ArmID, rua, numeroPorta, codPostal)
+ARMAZEM (_**ArmID**_, rua, numeroPorta, codPostal)
 
-LOJA (idLoja, moradaLoja)
+LOJA (_**idLoja**_, moradaLoja)
 
 ENCOMENDA (numEnc, moradaEnc, valor)
 
