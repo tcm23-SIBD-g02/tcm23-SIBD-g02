@@ -71,11 +71,10 @@ multibanco (cartão, transferência)))
 Associações:
 
 ```
-Cada armazém armazena peças
-Cada loja vende peças
-A Loja efetua pedidos a um armazém
-As peças são enviadas pelo armazém
-Cada loja realiza uma encomenda
-Cada armazém prepara uma encomenda
-Cada cliente compra peças
+ARMAZENA (armazem, pecas)
+VENDE (loja, pecas)
+EFECTUA_PEDIDOS (loja, armazem)
+REALIZA (loja, encomenda)
+PREPARA (armazem, encomenda)
+COMPRA (cliente, peca)
 ```
