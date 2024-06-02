@@ -49,7 +49,6 @@ ENCOMENDA (numEnc, moradaEnc, valor)
 Primária)
 - ⁠ ⁠moradaEnc: morada de entrega da encomenda
 - ⁠ ⁠valor: valor monetário da encomanda
-- ⁠ ⁠morada: morada de entrega de encomenda
 
 PECA (zona, nSerie, nInterno, valorCompra, valorVenda)
 
