@@ -46,11 +46,11 @@ PAGAMENTO (nCliente, tipoPagamento, detalhePagamento)
 | 000000   | Interior                      | 0000000 | 60          | 75
 
 ### CLIENTES
-| nCliente  | nome                          | morada | contacto | nif |
-| :-------- | :---------------------------- |
-| 000000    | Rui Pereiro              |
-| 000000    | Rua de Santa Catarina         |
-| 000000    | Avenida Dr. Antunes Guimarães |
+| nCliente   | nome            | morada | contacto  | nif         |
+| :--------- | :-------------- | :----  | :-------- | :---------- |
+| 00000000   | Rui Silva       | 350    | 913571904 | 00000000000 |
+| 00000000   | André Pereira   | 125    | 934719253 | 00000000000 |
+| 00000000   | Ricardo Tavares | 412    | 917489275 | 00000000000 |
 
 ### PAGAMENTO
 | nCliente  | tipoPagamento   | detalhePagamento |
