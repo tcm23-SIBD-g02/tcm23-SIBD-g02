@@ -4,54 +4,62 @@
 **Esquema Relacional** 
 
 ARMAZEM
-	•	ArmID
-	•	rua
-	•	numeroPorta
-	•	codPostal
-LOJA
-	•	idLoja
-	•	moradaLoja
-ENCOMENDA
-	•	numEnc
-	•	moradaEnc
-	•	valor
-PECA
-	•	nInterno
-	•	zona
-	•	nSerie
-	•	valorCompra
-	•	valorVenda
-CLIENTES
-	•	nCliente
-	•	nome
-	•	morada
-	•	contacto
-	•	nif
-PAGAMENTO
-	•	nCliente (Chave Estrangeira -> CLIENTES.nCliente)
-	•	tipoPagamento
-	•	detalhePagamento
+- __ArmID__
+- rua
+- numeroPorta
+- codPostal
 
-## **Relações**
+LOJA
+- __idLoja__
+- moradaLoja
+
+ENCOMENDA
+- __numEnc__
+- moradaEnc
+- valor
+
+PECA
+- __nInterno__
+- zona
+- nSerie
+- valorCompra
+- valorVenda
+
+CLIENTES
+- __nCliente__
+- nome
+- morada
+- contacto
+- nif
+
+PAGAMENTO
+- __nCliente__ , (Chave Estrangeira -> CLIENTES.nCliente)
+- tipoPagamento
+- detalhePagamento
 
 ARMAZENA
-	•	ArmID (Chave Estrangeira -> ARMAZEM.ArmID)
-	•	nInterno (Chave Estrangeira -> PECA.nInterno)
+- __ArmID__ , (Chave Estrangeira -> ARMAZEM.ArmID)
+- nInterno (PK, FK -> PECA.nInterno)
+
 VENDE
-	•	idLoja (Chave Estrangeira -> LOJA.idLoja)
-	•	nInterno (Chave Estrangeira -> PECA.nInterno)
+- __idLoja__ (Chave Estrangeira -> LOJA.idLoja)
+- __nInterno__ (Chave Estrangeira -> PECA.nInterno)
+
 EFECTUA_PEDIDOS
-	•	idLoja (Chave Estrangeira -> LOJA.idLoja)
-	•	ArmID (Chave Estrangeira -> ARMAZEM.ArmID)
+- __idLoja__ (Chave Estrangeira -> LOJA.idLoja)
+- __ArmID__ (Chave Estrangeira -> ARMAZEM.ArmID)
+
 REALIZA
-	•	idLoja (Chave Estrangeira -> LOJA.idLoja)
-	•	numEnc (Chave Estrangeira -> ENCOMENDA.numEnc)
+- __idLoja__ (Chave Estrangeira -> LOJA.idLoja)
+- __numEnc__ (Chave Estrangeira -> ENCOMENDA.numEnc)
+
 PREPARA
-	•	ArmID (Chave Estrangeira -> ARMAZEM.ArmID)
-	•	numEnc (Chave Estrangeira -> ENCOMENDA.numEnc)
+- __ArmID__ (Chave Estrangeira -> ARMAZEM.ArmID)
+- __numEnc__ (Chave Estrangeira -> ENCOMENDA.numEnc)
+
 COMPRA
-	•	nCliente (Chave Estrangeira -> CLIENTES.nCliente)
-	•	nInterno (Chave Estrangeira -> PECA.nInterno)
+- __nCliente__ (Chave Estrangeira -> CLIENTES.nCliente)
+- __nInterno__ (Chave Estrangeira -> PECA.nInterno)
 
 ## Tabela Armazem
 
