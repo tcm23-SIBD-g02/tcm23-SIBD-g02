@@ -33,32 +33,32 @@ PAGAMENTO (nCliente, tipoPagamento, detalhePagamento)
 | 000000  | Avenida Dr. Antunes Guimarães |
 
 ### ENCOMENDA
-
-
+| numEnc  | moradaEnc                     | valor | 
+| :------ | :---------------------------- | :---- |
+| 000000  | Rua Augusta                   | 300   |
+| 000000  | Rua 31 de Janeiro             | 125   |
+ 
 ### PECA
-
+| nInterno | zona                          | nSerie  | valorCompra | valorVenda |
+| :------  | :---------------------------- | :------ | :---------- | :--------- |
+| 000000   | Frente                        | 0000000 | 320         | 350        |
+| 000000   | Traseira                      | 0000000 | 150         | 160        |
+| 000000   | Interior                      | 0000000 | 60          | 75
 
 ### CLIENTES
-
+| nCliente  | nome                          | morada | contacto | nif |
+| :-------- | :---------------------------- |
+| 000000    | Rua Brito Capelo              |
+| 000000    | Rua de Santa Catarina         |
+| 000000    | Avenida Dr. Antunes Guimarães |
 
 ### PAGAMENTO
+| nCliente  | tipoPagamento   | detalhePagamento |
+| :-------- | :-------------- | :--------------- |
+| 000000    | Multibanco      | Transferência
+| 000000    | Dinheiro        |
+| 000000    | Multibanco      | 
 
 
-### ARMAZENA
-
-
-### VENDE
-
-
-### EFETUA_PEDIDOS
-
-
-### REALIZA
-
-
-### PREPARA
-
-
-## COMPRA
 
 
