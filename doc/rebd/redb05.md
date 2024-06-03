@@ -1,7 +1,7 @@
 # C3 : SQL
 
 ## DDL
-
+```sql
 USE `test`;
 
 DROP TABLE IF EXISTS `Armazem`;
