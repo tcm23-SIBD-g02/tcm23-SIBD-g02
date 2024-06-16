@@ -75,5 +75,4 @@ VENDE (loja, pecas)
 EFECTUA_PEDIDOS (loja, armazem)
 REALIZA (loja, encomenda)
 PREPARA (armazem, encomenda)
-COMPRA (cliente, peca)
 ```
