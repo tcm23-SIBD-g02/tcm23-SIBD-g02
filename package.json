@@ -1,0 +1,27 @@
+{
+  "name": "tcm23-sibd-g02-main",
+  "version": "1.0.0",
+  "description": "sistema de informações abrangente para uma loja de peças automotivas como parte de uma avaliação da cadeira SIBD. O sistema inclui detalhes sobre carros, como marca, modelo e motorização, além de informações sobre as peças, como número de série, stock e valores. O sistema gerencia encomendas, clientes e logística de entregas, visando garantir um serviço de qualidade e facilitar o controle de stock e operações para os proprietários da loja.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcm23-SIBD-g02/tcm23-SIBD-g02.git"
+  },
+  "author": "Nuno Pinto / Jorge Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcm23-SIBD-g02/tcm23-SIBD-g02/issues"
+  },
+  "homepage": "https://github.com/tcm23-SIBD-g02/tcm23-SIBD-g02#readme",
+  "dependencies": {
+    "@loopback/core": "^6.1.0",
+    "@loopback/repository": "^7.0.3",
+    "@loopback/rest": "^14.0.3"
+  }
+}
