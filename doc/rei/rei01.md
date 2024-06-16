@@ -70,9 +70,11 @@ multibanco (cartão, transferência)))
 Associações:
 
 ```
-ARMAZENA (armazem, pecas)
-VENDE (loja, pecas)
-EFECTUA_PEDIDOS (loja, armazem)
-REALIZA (loja, encomenda)
-PREPARA (armazem, encomenda)
+armazena (armazem, peca) 1:N  P|T
+vende (loja, pecas) 1:N T|T
+faz_pedidos (loja, armazem) T|P
+realiza (loja, encomenda) M:N  T|T
+prepara (armazem, encomenda) 1:N T|T
+<img width="439" alt="image" src="https://github.com/tcm23-SIBD-g02/tcm23-SIBD-g02/assets/154247538/25c1cea1-11fb-4d81-9594-e0e0560d1465">
+
 ```
