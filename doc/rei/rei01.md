@@ -75,6 +75,4 @@ vende (loja, pecas) 1:N T|T
 faz_pedidos (loja, armazem) T|P
 realiza (loja, encomenda) M:N  T|T
 prepara (armazem, encomenda) 1:N T|T
-
-
 ```
