@@ -2,7 +2,7 @@
 
 ## Modelo E/A
 
-![Modelo Conceptual](doc/rei/EA.jpg)
+![Modelo Conceptual](/doc/rei/EA.jpg)
 ## Regras de negócio adicionais (Restrições)
 
 ---
