@@ -2,4 +2,4 @@ C3 : Esquema conceptual
 
 Modelo E/A
 
-doc/rei/EA.jpg
+(doc/rei/EA.jpg)
