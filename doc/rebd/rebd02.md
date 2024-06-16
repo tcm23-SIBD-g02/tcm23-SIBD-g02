@@ -2,10 +2,9 @@
 
 ## Modelo E/A
 
-Em atualização
-
+![Modelo Conceptual](doc/rei/EA.jpg)
 ## Regras de negócio adicionais (Restrições)
 
 ---
-[< Previous](rebd01.md) | [^ Main](/../../) | [Next >](rebd03.md)
+[< Previous](rebd01.md) | [^ Main](redb00.md) | [Next >](rebd03.md)
 :--- | :---: | ---: 
