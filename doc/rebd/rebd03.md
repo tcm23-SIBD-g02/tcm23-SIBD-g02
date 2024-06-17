@@ -47,7 +47,7 @@ PAGAMENTO (_**nCliente**_, tipoPagamento, detalhePagamento)
 
 ### CLIENTES
 | nCliente   | nome            | morada               | contacto  | nif         |
-| :--------- | :-------------- | :----  | :---------- | :-------- | :---------- |
+| :--------- | :-------------- | :------------------- | :-------- | :---------- |
 | 00000000   | Rui Silva       | Avenida da Republica | 913571904 | 00000000000 |
 | 00000000   | André Pereira   | Rua Roberto Ivens    | 934719253 | 00000000000 |
 | 00000000   | Ricardo Tavares | Avenida da Liberdade | 917489275 | 00000000000 |
