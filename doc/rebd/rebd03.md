@@ -46,11 +46,11 @@ PAGAMENTO (_**nCliente**_, tipoPagamento, detalhePagamento)
 | 000000   | Interior                      | 0000000 | 60          | 75
 
 ### CLIENTES
-| nCliente   | nome            | morada | contacto  | nif         |
-| :--------- | :-------------- | :----  | :-------- | :---------- |
-| 00000000   | Rui Silva       | 350    | 913571904 | 00000000000 |
-| 00000000   | André Pereira   | 125    | 934719253 | 00000000000 |
-| 00000000   | Ricardo Tavares | 412    | 917489275 | 00000000000 |
+| nCliente   | nome            | morada               | contacto  | nif         |
+| :--------- | :-------------- | :----  | :---------- | :-------- | :---------- |
+| 00000000   | Rui Silva       | Avenida da Republica | 913571904 | 00000000000 |
+| 00000000   | André Pereira   | Rua Roberto Ivens    | 934719253 | 00000000000 |
+| 00000000   | Ricardo Tavares | Avenida da Liberdade | 917489275 | 00000000000 |
 
 ### PAGAMENTO
 | nCliente  | tipoPagamento   | detalhePagamento |
